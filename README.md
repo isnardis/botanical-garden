@@ -1,8 +1,8 @@
-# botanical-garden
+## botanical-garden
 Rendu du projet de JAVA de Ana ISNARDIS, Khalil EL HOUFI et Maxime ANTIGNAC.
 Août 2024.
 
-# Ce projet est une API REST pour la gestion d'un jardin botanique, développée avec Spring Boot.
+## Ce projet est une API REST pour la gestion d'un jardin botanique, développée avec Spring Boot.
 Configuration et Lancement
 1. Clonez ce repository
 2. Assurez-vous d'avoir Java 11+ et Maven installés
@@ -14,7 +14,7 @@ mvn spring-boot:run
 L'application sera accessible à
 `http://localhost:8080`
 
-# Endpoints API
+## Endpoints API
 ## Plants
 
 * GET /api/plants : Liste toutes les plantes
@@ -44,12 +44,13 @@ POST /api/plants
 }
 ```
 
-# Structure du Projet
+## Structure du Projet
 * `src/main/java/com/example/botanicalgarden/` : Code source Java
 * `model/` : Entités JPA
 * `repository/` : Interfaces Repository
 * `controller/` : Contrôleurs REST
 * `src/main/resources/` : Fichiers de configuration - `pom.xml` : Configuration Maven et dépendances
-Choix de Conception
+
+## Choix de Conception
 * Utilisation de Spring Data JPA pour la persistance
 * API RESTful avec opérations CRUD pour chaque entité
